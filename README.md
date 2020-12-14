@@ -2,7 +2,7 @@
 An app to solve Sudoku Puzzles
 
 ## Task:
-Create a Sudoku board and use a backtracking algorithm to solve it
+Create a Sudoku board and use a backtracking to solve it
 
 ## Criteria:
 * Stick to the rules of Sudoku
