@@ -12,6 +12,8 @@ def sudoku(base_num):
     columns = [g * base + c for g in rand(r_base) for c in rand(r_base)]
     nums = rand(range(1, base * base + 1))
     board = [[nums[sol_pattern(r, c)] for c in columns] for r in rows]
+    for line in board:
+        print(line)
     # Process of creating blank spaces in board
     squares = side * side
     blanks = squares * 3 // 4
@@ -22,8 +24,8 @@ def sudoku(base_num):
         print("[" + " ".join(f"{n or '.':{nums_size}}" for n in line) + "]")
 
 
+def puzzle_solver():
+    
 class SudokuBoard(object):
+    sudoku(3)
     pass
-
-
-sudoku(3)
