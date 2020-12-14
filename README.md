@@ -12,3 +12,6 @@ Create a Sudoku board and use a backtracking algorithm to solve it
 
 ### Prototype #1:
 Made the already solved board and deleted spaces for the algorithm to solve.
+
+![](Images/SolvedSudokuEx.png)
+![](Images/UnsolvedSudokuEx.png)
