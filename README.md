@@ -15,3 +15,8 @@ Made the already solved board and deleted spaces for the algorithm to solve.
 
 ![](Images/SolvedSudokuEx.png)
 ![](Images/UnsolvedSudokuEx.png)
+
+### Prototype #2:
+Implemented the backtracking in order to solve the puzzle in the console.
+
+![](Images/BackTrackedSudokuEx.png)
