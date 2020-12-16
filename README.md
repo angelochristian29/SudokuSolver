@@ -21,9 +21,12 @@ Included a GUI that only displays the partially filled sudoku board.
 ![](Images/pygameWindow_Unsolved.png)
 
 ## Final Product:
-Project meets criteria while remaining visually pleasing to watch.
+Project meets criteria while still remaining visually pleasing to watch. 
+
 Here are some examples of how the app works: 
 
+![](Images/pygameWindow_PartiallySolved.png)
+![](Images/pygameWindow_FullySolved.png)
 ## How to Use App
 1. After files are downloaded, the user should click run and see a pop up Pygame window.
 2. The User can press "1" on the keyboard to activate backtracking algorithm.
