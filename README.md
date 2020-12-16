@@ -10,6 +10,11 @@ Create a Sudoku board and use backtracking to solve it
 * Provide a GUI for the user
 * Display graphics in order for algorithm to be visualized
 
+## How to Use App
+1. After files are downloaded, the user should click run and see a pop up Pygame window.
+2. The User can press "1" on the keyboard to activate backtracking algorithm.
+3. Once puzzle is solved, a message saying "Game Over" will appear and app can be exited.
+
 ### Prototype #1:
 Implemented the backtracking in order to solve the puzzle in the console.
 
@@ -27,7 +32,3 @@ Here are some examples of how the app works:
 
 ![](Images/pygameWindow_PartiallySolved.png)
 ![](Images/pygameWindow_FullySolved.png)
-## How to Use App
-1. After files are downloaded, the user should click run and see a pop up Pygame window.
-2. The User can press "1" on the keyboard to activate backtracking algorithm.
-3. Once puzzle is solved, a message saying "Game Over" will appear and app can be exited.
