@@ -20,3 +20,6 @@ Made the already solved board and deleted spaces for the algorithm to solve.
 Implemented the backtracking in order to solve the puzzle in the console.
 
 ![](Images/BackTrackedSudokuEx.png)
+
+## Prototype #3
+Included a GUI that only displays the partially filled sudoku board.
