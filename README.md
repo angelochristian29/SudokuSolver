@@ -6,22 +6,25 @@ Create a Sudoku board and use backtracking to solve it
 
 ## Criteria:
 * Stick to the rules of Sudoku
-* Offer a customizable table that goes beyond the 9x9 square
+* Offer a randomized table that differs each time it is run
 * Provide a GUI for the user
 * Display graphics in order for algorithm to be visualized
 
 ### Prototype #1:
-Made the already solved board and deleted spaces for the algorithm to solve.
-
-![](Images/SolvedSudokuEx.png)
-![](Images/UnsolvedSudokuEx.png)
-
-### Prototype #2:
 Implemented the backtracking in order to solve the puzzle in the console.
 
 ![](Images/BackTrackedSudokuEx.png)
 
-## Prototype #3
+### Prototype #2:
 Included a GUI that only displays the partially filled sudoku board.
 
 ![](Images/pygameWindow_Unsolved.png)
+
+## Final Product:
+Project meets criteria while remaining visually pleasing to watch.
+Here are some examples of how the app works: 
+
+## How to Use App
+1. After files are downloaded, the user should click run and see a pop up Pygame window.
+2. The User can press "1" on the keyboard to activate backtracking algorithm.
+3. Once puzzle is solved, a message saying "Game Over" will appear and app can be exited.
