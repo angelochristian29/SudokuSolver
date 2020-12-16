@@ -1,8 +1,12 @@
+import sys, pygame as pg
+import time
+pg.init()
+
 class SudokuBoard:
 
-    def __init__(self, base):
-        self.base = base
-        self.side = base*base
+    def __init__(self):
+        self.base = 3
+        self.side = self.base * self.base
         self.s_board = [[]]
 
     def sudoku_maker(self):
@@ -20,7 +24,7 @@ class SudokuBoard:
         squares = self.side * self.side
         blanks = squares * 3 // 4
         for p in sample(range(squares), blanks):
-            board[p // self.side][p % self.side] = ' '
+            board[p // self.side][p % self.side] = 0
         return board
 
     def is_present(self, board, r, c, num):
@@ -38,32 +42,6 @@ class SudokuBoard:
                     return False
         return True
 
-    def backtracking_solver(self, board, r, c):
-        if r > self.side - 1:
-            return True
-        if board[r][c] != ' ':
-            if c == self.side - 1:
-                itr = self.backtracking_solver(board, r + 1, 0)
-            else:
-                itr = self.backtracking_solver(board, r, c + 1)
-            return itr
-        else:
-            for i in range(1, self.side + 1):
-                if self.is_present(board, r, c, i):
-                    board[r][c] = i
-                    if c == self.side - 1:
-                        itr = self.backtracking_solver(board, r + 1, 0)
-                    else:
-                        itr = self.backtracking_solver(board, r, c + 1)
-                    if itr is True:
-                        return True
-            board[r][c] = ' '
-            return False
-    def start_sol(self, board):
-        return self.backtracking_solver(board, 0, 0)
-
     def board_printer(self, board):
         for line in board:
             print(line)
-
-
