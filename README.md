@@ -23,3 +23,5 @@ Implemented the backtracking in order to solve the puzzle in the console.
 
 ## Prototype #3
 Included a GUI that only displays the partially filled sudoku board.
+
+![](Images/pygameWindow_Unsolved.png)
