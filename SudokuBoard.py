@@ -1,7 +1,3 @@
-import sys, pygame as pg
-import time
-pg.init()
-
 class SudokuBoard:
 
     def __init__(self):
