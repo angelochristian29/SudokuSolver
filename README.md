@@ -1,4 +1,4 @@
-# SudokuSolver
+# PyDoku
 An app to solve Sudoku Puzzles
 
 ## Task:
